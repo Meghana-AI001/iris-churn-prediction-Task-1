@@ -1,0 +1,25 @@
+{
+  "model": "RandomForestClassifier (GridSearchCV tuned)",
+  "best_params": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_split": 2,
+    "n_estimators": 50
+  },
+  "features": [
+    "sepal_length",
+    "sepal_width",
+    "petal_length",
+    "petal_width",
+    "petal_area",
+    "sepal_area",
+    "petal_sepal_ratio"
+  ],
+  "classes": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "test_accuracy": 0.9333333333333333,
+  "cv_score": 0.9777777777777779
+}
